@@ -1,0 +1,39 @@
+﻿@model Haber.Entities.DTO.KategoriDTO
+@{
+                /**/
+
+                ViewBag.AdminTitle = "Kategori Düzenleme";
+}
+@section customAdminScripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+}
+<hr />
+@using (Html.BeginForm("Edit", "Category", FormMethod.Post))
+{
+    @Html.HiddenFor(i => i.KategoriId)
+    @Html.AntiForgeryToken()
+
+    <div class="form-row">
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-row">
+        @Html.LabelFor(i => i.KategoriAdi, new { @class = "col-2" })
+        <div class="col-10">
+            @Html.TextBoxFor(i => i.KategoriAdi, new { @class = "form-control" })
+            @Html.ValidationMessageFor(i => i.KategoriAdi, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-row">
+        @Html.LabelFor(i => i.Description, new { @class = "col-2" })
+        <div class="col-10">
+            @Html.TextBoxFor(i => i.Description, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-row">
+        <div class=" offset-2 col-2">
+            <input type="submit" value="Düzenle" class="btn btn-block btn-danger" />
+        </div>
+    </div>
+}

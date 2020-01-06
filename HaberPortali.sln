@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
+Global
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haber.Entities", "Haber.Entities\Haber.Entities.csproj", "{51B36C0F-6539-426B-8008-FF4E11C5834C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haber.DAL", "Haber.DAL\Haber.DAL.csproj", "{D7D62935-3F23-4A3F-A883-FE3366D9645A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haber.MVC.WEBUI", "Haber.MVC.WEBUI\Haber.MVC.WEBUI.csproj", "{95FC0BEB-B01F-40FB-8028-3FD21EB1335E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haber.Services", "Haber.Services\Haber.Services.csproj", "{10F2DB31-30FB-40F3-B4C4-F93CBC3C1F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haber.Helpers", "Haber.Helpers\Haber.Helpers.csproj", "{A5CA591F-FD61-4888-93A9-F57CD0A7C164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51B36C0F-6539-426B-8008-FF4E11C5834C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B36C0F-6539-426B-8008-FF4E11C5834C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B36C0F-6539-426B-8008-FF4E11C5834C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B36C0F-6539-426B-8008-FF4E11C5834C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D62935-3F23-4A3F-A883-FE3366D9645A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D62935-3F23-4A3F-A883-FE3366D9645A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D62935-3F23-4A3F-A883-FE3366D9645A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D62935-3F23-4A3F-A883-FE3366D9645A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FC0BEB-B01F-40FB-8028-3FD21EB1335E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FC0BEB-B01F-40FB-8028-3FD21EB1335E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FC0BEB-B01F-40FB-8028-3FD21EB1335E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FC0BEB-B01F-40FB-8028-3FD21EB1335E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F2DB31-30FB-40F3-B4C4-F93CBC3C1F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F2DB31-30FB-40F3-B4C4-F93CBC3C1F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F2DB31-30FB-40F3-B4C4-F93CBC3C1F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F2DB31-30FB-40F3-B4C4-F93CBC3C1F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CA591F-FD61-4888-93A9-F57CD0A7C164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CA591F-FD61-4888-93A9-F57CD0A7C164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CA591F-FD61-4888-93A9-F57CD0A7C164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CA591F-FD61-4888-93A9-F57CD0A7C164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+>>>>>>> parent of 3287064... Revert "Add project files."
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
+		SolutionGuid = {78E25034-806E-4459-AC25-8F88BC0DC9B6}
+=======
+		SolutionGuid = {7BB14E35-48D2-47AA-8F0F-E018471EE897}
+>>>>>>> parent of 3287064... Revert "Add project files."
+	EndGlobalSection
+EndGlobal
